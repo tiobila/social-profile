@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <!-- font google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+       font-size: 11px; text-align: center; 
+       color:#fff;
+      }
+    .attribution a { 
+      color: hsl(228, 45%, 44%); 
+    }
+*{
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 0;
+}
+body{
+  background-color: black;
+  display:  flex;
+  justify-content:center;
+  align-items:center;
+ 
+}
+.content{
+  width: 500px;
+  height: 730px;
+  background-color: rgba(36, 35, 35, 0.973);
+  border-radius: 15px;
+  z-index: 100;
+ 
+}
+img{
+  border-radius: 50%;
+}
+.image{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+h1{
+ text-align: center;
+ color: aliceblue;
+ font-family: "kanit", sans-serif;
+}
+p{
+text-align: center;
+color: chartreuse;
+font-family: "kanit", sans-serif;
+font-weight: 200;
+}
+.txt{
+  text-align:center;
+  color: white;
+}
+
+.social a{
+display: flex;
+height: 50px;
+justify-content: center;
+color: #fff;
+background-color: rgb(78, 76, 76);
+border-radius: 10px;
+margin: 20px;
+text-decoration: dashed;
+font-size: 20px;
+align-items: center;
+font-weight: 500;
+font-family: "kanit", sans-serif;
+}
+.social a:hover{
+  background-color: rgba(252, 252, 252, 0.671);
+  color: black;
+  font-weight: 500;
+  font-family: "kanit", sans-serif;
+}
+  </style>
+</head>
+<body>
+  <div class="content">
+    <div class="image">
+     <img src="assets/images/foto.jpg" alt="abelardo souza">
+    </div>
+   <h1>Abelardo Souza</h1>
+ <p>London, United Kingdom</p> 
+      <br>
+<p class="txt">"Front-end developer and avid reader."</p>
+    <div class="social">
+      <a href="https://github.com/tiobila"> GitHub</a>
+      <a href="https://www.linkedin.com/in/abelardo-souza-de-moura-50a097266/">LinkedIn</a>
+      <a href="https://www.youtube.com/channel/UC2lw1Xx8MeztE4fpCX4zSVg"> youtube</a>
+      <a href="https://www.instagram.com/abelardo_sdm/"> Instagram</a>
+    </div>
+    <br>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">abelardo souza de moura</a>.
+    </div>
+  </div>
+  </div>
+</body>
+</html>
